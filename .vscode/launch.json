@@ -19,5 +19,8 @@
       "angular-ui-router": "~0.2.11",
       "path": "latest",
       "dat-gui": "latest"
-    }
+    },
+    "configurations": [
+    
+    ]
   }

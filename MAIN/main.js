@@ -101,30 +101,30 @@
 //=============================Dictionaries====================================
 //=============================================================================
 
-// var person = {
-//     firstName : "John",
-//     lastName : "Smith",
-//     age      :   30,
-//     hobbies : ['music', 'reading', 'movies'],
-//     address : {
-//         street: '50 main street',
-//         city: 'Boston',
-//         state: 'MA'
-//     }
-// }
+var person = {
+    firstName : "John",
+    lastName : "Smith",
+    age      :   30,
+    hobbies : ['music', 'reading', 'movies'],
+    address : {
+        street: '50 main street',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
 //========================================================================
-// console.log(person);
-// console.log(person.hobbies);
-// console.log(person.address);
+console.log(person);
+console.log(person.hobbies);
+console.log(person.address);
 //========================================================================
-// console.log(person.hobbies[0]);
+console.log(person.hobbies[0]);
 //========================================================================
-// console.log(person.address.street);
-// person.address.street = "Changed Adress take 2"
-// console.log(person.address.street);
+console.log(person.address.street);
+person.address.street = "Changed Adress take 2"
+console.log(person.address.street);
 //========================================================================
-// person.email = "johnsmith@gmail.com"
-// console.log(person)
-// console.log(person.email)
+person.email = "johnsmith@gmail.com"
+console.log(person)
+console.log(person.email)
 //========================================================================
 

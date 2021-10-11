@@ -91,4 +91,27 @@
 //
 // ourFunction();
 
-console.log("Hello, World!")
+// function ourFunction(){
+//   num1 = 5;
+//   return num1
+// }
+//
+// ourFunction();
+//=============================================================================
+//=============================Dictionaries====================================
+//=============================================================================
+
+// var person = {
+//     firstName : "John",
+//     lastName : "Smith",
+//     age      :   30,
+//     hobbies : ['music', 'reading', 'movies'],
+//     address : {
+//         street: '50 main street',
+//         city: 'Boston',
+//         state: 'MA'
+//     }
+// }
+// console.log(person);
+// console.log(person.hobbies);
+// console.log(person.address)

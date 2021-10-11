@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    width: 500px;
+    font-size:30px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 30px;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(89, 124, 36);
+}
+button{
+    margin-top: 50px;
+    width: 300px;
+    height: 35px;
+    font-size: 25px;
+    background-color: rgb(130, 165, 77);
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+h1 {
+    color: white;
+    margin-top: 50px;
+}
+
+label{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}

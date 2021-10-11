@@ -112,6 +112,19 @@
 //         state: 'MA'
 //     }
 // }
+//========================================================================
 // console.log(person);
 // console.log(person.hobbies);
-// console.log(person.address)
+// console.log(person.address);
+//========================================================================
+// console.log(person.hobbies[0]);
+//========================================================================
+// console.log(person.address.street);
+// person.address.street = "Changed Adress take 2"
+// console.log(person.address.street);
+//========================================================================
+// person.email = "johnsmith@gmail.com"
+// console.log(person)
+// console.log(person.email)
+//========================================================================
+

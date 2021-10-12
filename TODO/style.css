@@ -1,0 +1,45 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(66, 93, 43);
+    color: white;
+}
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.to-dos {
+    margin-top: 45px;
+}
+
+p{
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(248, 248, 242);
+    transition: 0.5s all ease-in;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p:hover{
+    color: rgb(255, 255, 255);
+    transform: rotateY(20deg);
+}

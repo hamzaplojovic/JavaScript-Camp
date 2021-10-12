@@ -145,8 +145,19 @@
     // block of code ();
 //}
 //=============================================================================
+// For Loop trough Array
 // array = ['item', 'item2', 'item3']
 // for (let i = 0; i < array.length; i++) {
 //     console.log(array[i]);
     
 // }
+//=============================================================================
+// For Loop trough Dictionary
+var person = {
+    name:"John",
+    age:30,
+    stret:"50 Smith Street"
+}
+for (elem in person){
+    console.log(elem+" = "+person[elem]);
+}

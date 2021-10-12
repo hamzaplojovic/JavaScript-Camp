@@ -153,11 +153,11 @@
 // }
 //=============================================================================
 // For Loop trough Dictionary
-var person = {
-    name:"John",
-    age:30,
-    stret:"50 Smith Street"
-}
-for (elem in person){
-    console.log(elem+" = "+person[elem]);
-}
+// var person = {
+//     name:"John",
+//     age:30,
+//     stret:"50 Smith Street"
+// }
+// for (elem in person){
+//     console.log(elem+" = "+person[elem]);
+// }

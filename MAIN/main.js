@@ -101,30 +101,47 @@
 //=============================Dictionaries====================================
 //=============================================================================
 
-var person = {
-    firstName : "John",
-    lastName : "Smith",
-    age      :   30,
-    hobbies : ['music', 'reading', 'movies'],
-    address : {
-        street: '50 main street',
-        city: 'Boston',
-        state: 'MA'
-    }
-}
+// var person = {
+//     firstName : "John",
+//     lastName : "Smith",
+//     age      :   30,
+//     hobbies : ['music', 'reading', 'movies'],
+//     address : {
+//         street: '50 main street',
+//         city: 'Boston',
+//         state: 'MA'
+//     }
+// }
 //========================================================================
-console.log(person);
-console.log(person.hobbies);
-console.log(person.address);
+// console.log(person);
+// console.log(person.hobbies);
+// console.log(person.address);
 //========================================================================
-console.log(person.hobbies[0]);
+// console.log(person.hobbies[0]);
 //========================================================================
-console.log(person.address.street);
-person.address.street = "Changed Adress take 2"
-console.log(person.address.street);
+// console.log(person.address.street);
+// person.address.street = "Changed Adress take 2"
+// console.log(person.address.street);
 //========================================================================
-person.email = "johnsmith@gmail.com"
-console.log(person)
-console.log(person.email)
-//========================================================================
+// person.email = "johnsmith@gmail.com"
+// console.log(person)
+// console.log(person.email)
+//==========================================================================
+//=============================For Loops====================================
+//==========================================================================
 
+// THIS IS EXAMPLE OF FOR LOOP
+// for (let i = 0; i <= 10; i ++){
+//     console.log("Foor loop number: "+ i)
+// }
+
+// array = ['element1', 'element2', 'element3'];
+// for (let i = 0; i < array.length; i++){
+//     console.log(i)
+// }
+// console.log("This is how many elements this array has")
+//=============================================================================
+// for (starts at 0, goes to some number, gets bigger by one){
+    // block of code ();
+//}
+//=============================================================================

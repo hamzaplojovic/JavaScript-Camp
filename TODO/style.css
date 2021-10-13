@@ -43,3 +43,19 @@ p:hover{
     color: rgb(255, 255, 255);
     transform: rotateY(20deg);
 }
+#added{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+#done_button{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}

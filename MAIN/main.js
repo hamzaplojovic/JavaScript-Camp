@@ -161,3 +161,16 @@
 // for (elem in person){
 //     console.log(elem+" = "+person[elem]);
 // }
+//============================================================================
+// var d = new Date();
+// console.log(d)
+//============================================================================
+// var pi = Math.PI;
+// console.log(pi)
+// var eulers = Math.E;
+// console.log(eulers)
+// var square = Math.SQRT2;
+// console.log(square);
+// var pow = Math.pow(8, 2);
+// console.log(pow)
+//=============================================================================

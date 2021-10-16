@@ -9,7 +9,8 @@
     height: 70px;
     line-height: 70px;
     padding: 16px 8px;
-    font-size: 25px;
+    font-size: 50px;
+	color: rgb(72, 104, 24);
 }
 
 .buttons {
@@ -32,13 +33,35 @@
     cursor: pointer;
 }
 
-#equal {
-    background-color: rgb(85, 85, 255);
+#equal, #arrow, #minus, #plus, #dot{
+    background-color: rgb(72, 104, 24);
     color: white;
+	transition: 0.5s ease-in-out all;
 }
 
 .button:hover {
-    background-color: #323330;
+    background-color: rgb(72, 104, 24);
     color: white;
-    transition: 0.5s ease-in-out;
+    transition:0.8s ease-in-out;
+}
+#equal:hover, #arrow:hover, #minus:hover, #plus:hover, #dot:hover, #c, #slash, #multi{
+	color: rgb(72, 104, 24);
+	background-color: white;
+}
+#c, #slash, #multi, #bracket1:hover, #bracket2:hover{
+	background-color: rgb(72, 104, 24);
+	color: white;
+}
+#c:hover, #slash:hover, #multi:hover{
+	background-color: white;
+	color: rgb(72, 104, 24);
+}
+
+#bracket1:hover, #bracket2:hover{
+	background-color: white;
+	color: rgb(72, 104, 24);
+}
+#bracket1, #bracket2{
+	background-color: rgb(72, 104, 24);
+	color: white;
 }

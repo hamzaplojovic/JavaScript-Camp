@@ -241,3 +241,15 @@
 
 
 //=============================================================================
+//                         FOR LOOP
+
+// x = ["item1", "item2", "item3"]
+// empty = []
+// for (let index = 0; index < x.length; index++) {
+//     element = x[index]
+//     empty.push(element)
+// }
+// console.log(empty)
+
+// for (stetament1, stetament2, stetament3) {
+// }

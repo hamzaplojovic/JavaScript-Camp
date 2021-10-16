@@ -1,231 +1,243 @@
-//=============================================================================
-//==================================Numbers====================================
-//=============================================================================
-// var num1 = 3;
-// var num2 = num1 + 3;
-// var res  = num1 + num2;
-// console.log(res)
+// var changed = document.getElementById("paragraph")
+// changed.addEventListener("click",function(){
+//     changed.innerText = "hi"
+// })
 
 
-// var name = window.prompt("Enter your name: ");
-// alert("Your name is: "+ name);
-// console.log(name)
+// document.write(5+6)
 
-// myvar = 5;
-// console.log(myvar % 2);
+// alert("Hello World!")
 
-// myvar = 5;
-// myvar = myvar + 10;
-// myvar += 10;
-// console.log(myvar);
+// console.log(5+6);
+// console.log(window)
+// console.log(document)
 
-// myvar = 15;
-// // myvar = myvar  10;
-// myvar -= 10;
-// console.log(myvar);
-//=============================================================================
-//==================================Strings====================================
-//=============================================================================
-// var myFirstName = "Hamza";
-// var myLastName  = "Plojovic";
-// alert(myFirstName + " " + myLastName));
+//================================================================================
+//================================================================================
 
-// var myString = "I am \"double quoted\" string inside \"double quotes\"";
-// console.log(myString);
+//  <==============================    LET    ===================================>
 
-// var string = "First Line\n\t\Second Line\n\Third Line";
-// console.log(string);
+// let a = "John"           The let variables cannot be redaclared
+// let a = 0;
 
-// Zero based indexing
-// Where the 1 is 0
-// var name = "Hamza";
-// console.log(name[0]);
-
-//Finding last number in string
-// var name = "Hamza";
-// console.log(name[name.length - 1]);
-
-// var full_name = "Hamza Plojovic"
-// console.log("")
-// var f_name = full_name.slice(0, 5);  // These parameters are for first letter
-// var l_name = full_name.slice(6, 14)  // that we want to slice and the last letter
-//                                      // that we want to slice
-// console.log(f_name)
-// console.log(l_name)
-// console.log("")
-
-//=============================================================================
-//===================================Arrays====================================
-//=============================================================================
-// Arrays
-// myArray = ["First Item", 2, 2.6];
-// console.log(myArray[0]);
-
-// Nested array
-// myArray = [["First Item", "Second Item"], [2, 2.6]];
-// console.log(myArray[1]);
-
-// Changing item in array
-// myArray = [1, 2, 3, 4, 5];
-// myArray[1] = 9;
-// console.log(myArray);
-
-// myArray = [["First Item", "Second Item"], [2, 2.6]];
-// myArray[0][0] = "Changed Item";
-// console.log(myArray[0]);
-
-// myArray = [2, 3,4, 5, 6];
-// myArray.push(7, 8);
-// console.log(myArray);
-
-// myArray = [2, 3,4, 5, 6]; This removes last item in array
-// myArray.pop();
-// console.log(myArray);
-
-// myArray = [2, 3,4, 5, 6]; This removes the first item in array
-// myArray.shift();
-// console.log(myArray);
-
-// myArray = [2, 3,4, 5, 6];  This changes the first item 2 to 1
-// myArray.shift();
-// myArray.unshift(1);
-// console.log(myArray);
-
-// myArray = [1, 2, 3]
-// console.log(myArray.indexOf(2));
-
-// var item1 = 'item1'
-// var newarray = item1.replace('item1', 'replaced')
-// console.log(newarray);
-
-// var my_name = "Hamza Plojovic";
-// var upperName = my_name.toUpperCase();
-// console.log(upperName);
-
-// var my_name = "HAMZA PLOJOVIC";
-// var lowerName = my_name.toLowerCase();
-// console.log(lowerName);
-
-// var myName = "Hamza"
-// console.log(myName.split(""));  //Spliting string to letters
-
-//=============================================================================
-//================================Functions====================================
-//=============================================================================
-
-// function ourFunction(){
-//   console.log("Hello, World, but with function");
-//   alert("Hello, World, but with function");
+// {
+//     let a = 0
 // }
-//
-// ourFunction();
+// The a cannot be accesed from here because it's let variable
 
-// function ourFunction(){
-//   num1 = 5;
-//   return num1
+//  <==============================    VAR    ===================================>
+
+// var a = 0;                       This can be done with var variables
+// var a = 1;       
+
+// {
+//     var a = 0;
 // }
-//
-// ourFunction();
+// The a can be accessed from here because it's var variable
 
+//  <============================    CONST    ===================================>
 
-// a = (ime )=>{
-//     console.log(ime);
-// }
+// const PI = 3.14;
+// PI = 3.15;    This is error!
+// PI += 0.1     This is error!
 
-// a("daris")
+// Const can't be changed in any shape or form!
 
+// const PI;
+// PI = 3.14;           This is error;
+
+// Const also must be assigned!
 
 //=============================================================================
-//=============================Dictionaries====================================
-//=============================================================================
 
-// var person = {
-//     firstName : "John",
-//     lastName : "Smith",
-//     age      :   30,
-//     hobbies : ['music', 'reading', 'movies'],
-//     address : {
-//         street: '50 main street',
-//         city: 'Boston',
-//         state: 'MA'
-//     }
-// }
-//========================================================================
-// console.log(person);
-// console.log(person.hobbies);
-// console.log(person.address);
-//========================================================================
-// console.log(person.hobbies[0]);
-//========================================================================
-// console.log(person.address.street);
-// person.address.street = "Changed Adress take 2"
-// console.log(person.address.street);
-//========================================================================
-// person.email = "johnsmith@gmail.com"
-// console.log(person)
-// console.log(person.email)
-//==========================================================================
-//=============================For Loops====================================
-//==========================================================================
+//  <=====================    Functions    ===========================>
 
-// THIS IS EXAMPLE OF FOR LOOP
-// for (let i = 0; i <= 10; i ++){
-//     console.log("Foor loop number: "+ i)
-// }
+// function myFunc(){
+//     console.log("Hello, World!")             // Example of function
+// }                                                
+// myFunc();
 
-// array = ['element1', 'element2', 'element3'];
-// for (let i = 0; i < array.length; i++){
-//     console.log(i)
-// }
-// console.log("This is how many elements this array has")
-//=============================================================================
-// for (starts at 0, goes to some number, gets bigger by one){
-    // block of code ();
+
+// function NAME (parameter1, parameter2, paremeter3){
+    // code that is gonna be executed
 //}
-//=============================================================================
-// For Loop trough Array
-// array = ['item', 'item2', 'item3']
-// for (let i = 0; i < array.length; i++) {
-//     console.log(array[i]);
-    
-// }
-//=============================================================================
-// For Loop trough Dictionary
-// var person = {
-//     name:"John",
-//     age:30,
-//     stret:"50 Smith Street"
-// }
-// for (elem in person){
-//     console.log(elem+" = "+person[elem]);
-// }
 
-// Printing all even numbers to 10
-// array = []
-// for (let i = 0; i < 10; i+=2) {
-    // array.push(i)
+// function addition(a, b){
+//     return console.log(a*b)
 // }
-// console.log(array)
+// addition(7, 8)
+
+//================================================================================
+
+// INPUT
+// const readline = require("readline");
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// rl.question("What is your name: ", (your_name)=>{  Example of Anonymous function
+//     console.log("Hello, " + your_name);
+//     rl.close()
+// })
+
+//==============================================================================
+//                                OBJECTS
+
+// const car = {type:"Fiat", model:500, color:"white"};
+// console.log(car)
+
+// ==============================================================================
+                            //    STRINGS
+
+// let my_name = "Hamza";
+// console.log("String: "+my_name);
+// console.log("String Length: "+my_name.length);
+
+// let x = "John";
+// let y = new String("John")     // Making object out of string
+// console.log(y)
+
+// let fruit = "banana";
+// console.log(fruit.slice(2, 4)); // Output is the part of string that we selected
+//                                 // these parameters are first index and second index
+
+// let fruit2 = "Apple, Banana, Kiwi"                       
+// console.log(fruit2.slice(4));   // The output is string from 4 th index to last index
+
+// let text = "Please visit Microsoft!"
+// let newText = text.replace("Microsoft", "W3Schools!")
+// console.log(newText)
+
+
+// let u = "Hamza";
+// let upper = u.toUpperCase();
+// let lower = u.toLowerCase();
+// console.log(upper, lower);
+
+// let text1 = "Hello"
+// let text2 = "World"
+// console.log(text1.concat(" ",text2))
+
+
+// let string = "          Hello          "
+// console.log(string.trim())                 
+
+// let number = "5";
+// let pad_start_number = number.padStart(4, 0)
+// let pad_end_number = number.padEnd(4, 0)
+// console.log(pad_start_number);
+// console.log(pad_end_number);
+
+
+// let word = "Hello World!"
+// console.log(word[1]);
+// console.log(word.charAt(1));
+
+
+// let array_from_string = "Hamza"
+// console.log(array_from_string.split(''))
+
+//===============================================================================
+//                                  Numbers
+
+// let num1 = 123;
+// console.log(num1.toString())
+// console.log((123+32).toString())
+
+// let z = 9.6645;
+// console.log(z.toExponential(2));
+// console.log(z.toFixed(2))
+// console.log(z.toPrecision(2))
+// console.log(z.valueOf())
+
+// let string_to_int = "5";
+// console.log(Number(string_to_int));
+// console.log(parseInt(string_to_int));
+// console.log(parseFloat(string_to_int));
+
+
+// console.log(Number.MAX_VALUE)
+// console.log(Number.MIN_VALUE)
+// console.log(Number.POSITIVE_INFINITY)
+// console.log(Number.NEGATIVE_INFINITY)
+// console.log(Number.NaN)                   // Nan - Not a Number
+
+
+// ===============================================================================
+//                             Arrays
+
+// const array = ["bmw", "audi", "mercedes"]
+// console.log(array);
+
+
+// console.log(array[1]);
+// console.log(array[-1])
+
+// const new_array = new Array("Bmw", "Audi", "Saab")
+// console.log(new_array)
+
+// const array2 = [1,2, 3, 4, 5,6];
+// console.log(array2);
+// array2[2] = 90;
+// console.log(array2);
+
+
+// const array3 = [5, 2, 3, 3, 4, 5, 6]
+// console.log(array3.sort())
+
+
+// const array4 = ["item1", "item2", "item3"]
+// array4.push("item4")
+// console.log(array4)
+// console.log(array4.join(" * "))
+
+// const popped = array4.pop()
+// const shifted = array4.shift()
+// const unshifted = array4.unshift("item9")
+// console.log(popped);
+// console.log(shifted);
+// console.log(unshifted);
+
+// const array5 = ["Kiwi", "Banana", "Cherry"]
+// array5[0] = "Rasberry"
+// console.log(array5);
+
+// const array6 = ["Kiwi", "Banana", "Cherry"]
+// array6.splice(0, 0, "Lemon", "Strawberry") // Adding 2 element on 0 index without deleting any of other elements
+// console.log(array6);
+
+// const array7 = ["Kiwi", "Banana", "Cherry"]
+// array7.splice(0, 1);  // Using a splice method to delete first elements
+// console.log(array7);
+
+// const array8 = [1, 2, 3, 4, 5]
+// const array9 = [6, 7, 7, 8, 9]
+// const merged = array8.concat(array9)
+// console.log(merged);
+
+// const array1 = ["Banana", "Orange", "Apple", "Mango"]
+// console.log(array1.sort());
+// console.log(array1.reverse());
+
+// const array11 = [45, 7, 8, 6, 7, 8]
+// console.log(array11.forEach((value)=>{
+//     console.log("io")
+// }))
+
+
+// // Makes array from strings
+// console.log(Array.from("Wassup?"));
 
 //============================================================================
-//============================DATES===========================================
-//============================================================================
-// var d = new Date();
-// console.log(d)
-//============================================================================
-//===========================MATH=============================================
-//============================================================================
-// var pi = Math.PI;
-// console.log(pi)
-// var eulers = Math.E;
-// console.log(eulers)
-// var square = Math.SQRT2;
-// console.log(square);
-// var pow = Math.pow(8, 2);
-// console.log(pow)
-//=============================================================================
-//============================IF===============================================
-//=============================================================================
+//                         Boolean
 
-// ===      Strict Equal  This compares the values AND type
-// ==       Equal         This compares ONLY values
+// let bool_var = true             // This is variable with bool value
+
+// console.log(10 > 9)             // Evetything with value is true
+
+// let x = 0;
+// console.log(Boolean(x));        // Everything without value is false
+
+
+//=============================================================================

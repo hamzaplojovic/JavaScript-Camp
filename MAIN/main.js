@@ -44,6 +44,16 @@
 //Finding last number in string
 // var name = "Hamza";
 // console.log(name[name.length - 1]);
+
+// var full_name = "Hamza Plojovic"
+// console.log("")
+// var f_name = full_name.slice(0, 5);  // These parameters are for first letter
+// var l_name = full_name.slice(6, 14)  // that we want to slice and the last letter
+//                                      // that we want to slice
+// console.log(f_name)
+// console.log(l_name)
+// console.log("")
+
 //=============================================================================
 //===================================Arrays====================================
 //=============================================================================
@@ -80,6 +90,25 @@
 // myArray.shift();
 // myArray.unshift(1);
 // console.log(myArray);
+
+// myArray = [1, 2, 3]
+// console.log(myArray.indexOf(2));
+
+// var item1 = 'item1'
+// var newarray = item1.replace('item1', 'replaced')
+// console.log(newarray);
+
+// var my_name = "Hamza Plojovic";
+// var upperName = my_name.toUpperCase();
+// console.log(upperName);
+
+// var my_name = "HAMZA PLOJOVIC";
+// var lowerName = my_name.toLowerCase();
+// console.log(lowerName);
+
+// var myName = "Hamza"
+// console.log(myName.split(""));  //Spliting string to letters
+
 //=============================================================================
 //================================Functions====================================
 //=============================================================================
@@ -161,6 +190,16 @@
 // for (elem in person){
 //     console.log(elem+" = "+person[elem]);
 // }
+
+// Printing all even numbers to 10
+// array = []
+// for (let i = 0; i < 10; i+=2) {
+    // array.push(i)
+// }
+// console.log(array)
+
+//============================================================================
+//============================DATES===========================================
 //============================================================================
 // var d = new Date();
 // console.log(d)

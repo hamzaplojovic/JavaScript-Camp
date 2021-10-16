@@ -16,7 +16,7 @@ rl.question("Enter the option: ", function(option){
         rl.question("Enter the first number: ", function(num1) {
             rl.question("Enter the second number: ", function(num2) {
                 console.log(parseInt(num1) + parseInt(num2));
-                rl.close();
+                rl.close()
             });
         });
     }

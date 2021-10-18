@@ -253,3 +253,46 @@
 
 // for (stetament1, stetament2, stetament3) {
 // }
+
+// ===============================================================================
+//                               IF STETAMENT
+
+// const time = 17
+// if (time < 10) {
+//     greeting = "Good morning";
+//     console.log(greeting);
+
+// } else if (time < 20) {
+//     greeting = "Good day";
+//     console.log(greeting);
+// } else {
+//     greeting = "Good evening";
+//     console.log(greeting);
+
+// }
+// ===============================================================================
+//                               SWICTH
+
+// switch (new Date().getDay()) {
+//     case 0:
+//       day = "Sunday";
+//       break;
+//     case 1:
+//       day = "Monday";
+//       break;
+//     case 2:
+//        day = "Tuesday";
+//       break;
+//     case 3:
+//       day = "Wednesday";
+//       break;
+//     case 4:
+//       day = "Thursday";
+//       break;
+//     case 5:
+//       day = "Friday";
+//       break;
+//     case 6:
+//       day = "Saturday";
+// }
+// console.log(day);

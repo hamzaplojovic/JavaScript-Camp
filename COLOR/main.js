@@ -57,14 +57,14 @@ var remote_function = palette1.addEventListener("click", () => {
     .slice(8, 15);
   document.getElementById("3").style.backgroundColor = localStorage
     .getItem("colors")
-    .slice(15, 22);
+    .slice(16, 23);
   document.getElementById("color3").innerHTML = localStorage
     .getItem("colors")
-    .slice(15, 22);
+    .slice(16, 23);
   document.getElementById("4").style.backgroundColor = localStorage
     .getItem("colors")
-    .slice(22, 29);
+    .slice(24, 31);
   document.getElementById("color4").innerHTML = localStorage
     .getItem("colors")
-    .slice(22, 29);
+    .slice(24, 31);
 });

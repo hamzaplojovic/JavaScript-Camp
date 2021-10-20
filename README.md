@@ -16,3 +16,6 @@ Animation : https://hamzaplojovic.github.io/JavaScript/ANIMATION/
 Tic Tac Toe : https://hamzaplojovic.github.io/JavaScript/TTT/
 
 Counter : https://hamzaplojovic.github.io/JavaScript/Counter/
+
+
+Counter : https://hamzaplojovic.github.io/JavaScript/Stopwatch/

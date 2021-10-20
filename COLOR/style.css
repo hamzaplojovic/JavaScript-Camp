@@ -1,6 +1,7 @@
 body {
   width: 100%;
   display: flex;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 * {

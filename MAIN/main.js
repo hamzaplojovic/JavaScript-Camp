@@ -59,7 +59,7 @@
 
 
 // function NAME (parameter1, parameter2, paremeter3){
-    // code that is gonna be executed
+// code that is gonna be executed
 //}
 
 // function addition(a, b){
@@ -88,7 +88,7 @@
 // console.log(car)
 
 // ==============================================================================
-                            //    STRINGS
+//    STRINGS
 
 // let my_name = "Hamza";
 // console.log("String: "+my_name);
@@ -296,3 +296,26 @@
 //       day = "Saturday";
 // }
 // console.log(day);
+
+//============================= Objects ====================================>
+
+// let car = {
+//     type: "Fiat",
+//     model: 500,
+//     color: "white"
+// }
+// console.log(car.type);
+
+// console.log(car["type"])
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Smith",
+//     id: 5566,
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
+// };
+// console.log(person.fullName())
+
+// Declare Objects as const

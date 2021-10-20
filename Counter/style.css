@@ -1,0 +1,26 @@
+.main-div{
+        text-align: center;
+        margin-top: 10%;
+}
+h1{
+        font-size: 40px;
+}
+#countNumber{
+        font-size: 60px;
+}
+
+button{
+        background-color: black;
+        color: white;
+        width: 15%;
+        height: 40px;
+        border: none;
+        border-radius: 150px;
+        font-size: 20px;
+        transition: 0.5s all ease-in;
+}
+button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+}

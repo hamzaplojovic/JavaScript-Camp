@@ -17,5 +17,4 @@ Tic Tac Toe : https://hamzaplojovic.github.io/JavaScript/TTT/
 
 Counter : https://hamzaplojovic.github.io/JavaScript/Counter/
 
-
-Counter : https://hamzaplojovic.github.io/JavaScript/Stopwatch/
+StopWacth : https://hamzaplojovic.github.io/JavaScript/Stopwatch/

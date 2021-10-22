@@ -17,5 +17,7 @@ Tic Tac Toe : https://hamzaplojovic.github.io/JavaScript/TTT/
 
 Counter : https://hamzaplojovic.github.io/JavaScript/Counter/
 
+Stopwatch : https://hamzaplojovic.github.io/JavaScript/Stopwatch/
 
-Counter : https://hamzaplojovic.github.io/JavaScript/Stopwatch/
+Bill calculator : https://hamzaplojovic.github.io/JavaScript/Bill/
+

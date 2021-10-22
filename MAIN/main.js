@@ -3,7 +3,6 @@
 //     changed.innerText = "hi"
 // })
 
-
 // document.write(5+6)
 
 // alert("Hello World!")
@@ -28,7 +27,7 @@
 //  <==============================    VAR    ===================================>
 
 // var a = 0;                       This can be done with var variables
-// var a = 1;       
+// var a = 1;
 
 // {
 //     var a = 0;
@@ -54,9 +53,8 @@
 
 // function myFunc(){
 //     console.log("Hello, World!")             // Example of function
-// }                                                
+// }
 // myFunc();
-
 
 // function NAME (parameter1, parameter2, paremeter3){
 // code that is gonna be executed
@@ -102,13 +100,12 @@
 // console.log(fruit.slice(2, 4)); // Output is the part of string that we selected
 //                                 // these parameters are first index and second index
 
-// let fruit2 = "Apple, Banana, Kiwi"                       
+// let fruit2 = "Apple, Banana, Kiwi"
 // console.log(fruit2.slice(4));   // The output is string from 4 th index to last index
 
 // let text = "Please visit Microsoft!"
 // let newText = text.replace("Microsoft", "W3Schools!")
 // console.log(newText)
-
 
 // let u = "Hamza";
 // let upper = u.toUpperCase();
@@ -119,9 +116,8 @@
 // let text2 = "World"
 // console.log(text1.concat(" ",text2))
 
-
 // let string = "          Hello          "
-// console.log(string.trim())                 
+// console.log(string.trim())
 
 // let number = "5";
 // let pad_start_number = number.padStart(4, 0)
@@ -129,11 +125,9 @@
 // console.log(pad_start_number);
 // console.log(pad_end_number);
 
-
 // let word = "Hello World!"
 // console.log(word[1]);
 // console.log(word.charAt(1));
-
 
 // let array_from_string = "Hamza"
 // console.log(array_from_string.split(''))
@@ -156,20 +150,17 @@
 // console.log(parseInt(string_to_int));
 // console.log(parseFloat(string_to_int));
 
-
 // console.log(Number.MAX_VALUE)
 // console.log(Number.MIN_VALUE)
 // console.log(Number.POSITIVE_INFINITY)
 // console.log(Number.NEGATIVE_INFINITY)
 // console.log(Number.NaN)                   // Nan - Not a Number
 
-
 // ===============================================================================
 //                             Arrays
 
 // const array = ["bmw", "audi", "mercedes"]
 // console.log(array);
-
 
 // console.log(array[1]);
 // console.log(array[-1])
@@ -182,10 +173,8 @@
 // array2[2] = 90;
 // console.log(array2);
 
-
 // const array3 = [5, 2, 3, 3, 4, 5, 6]
 // console.log(array3.sort())
-
 
 // const array4 = ["item1", "item2", "item3"]
 // array4.push("item4")
@@ -225,7 +214,6 @@
 //     console.log("io")
 // }))
 
-
 // // Makes array from strings
 // console.log(Array.from("Wassup?"));
 
@@ -238,7 +226,6 @@
 
 // let x = 0;
 // console.log(Boolean(x));        // Everything without value is false
-
 
 //=============================================================================
 //                         FOR LOOP
@@ -319,3 +306,55 @@
 // console.log(person.fullName())
 
 // Declare Objects as const
+
+// ==============================================================================
+
+//                     Iterators
+
+// let array = [1, 2, 3, 4];
+// for (let x of array) {
+//     console.log(x);
+// }
+
+// const dictionary = {
+//     model: "Fiat",
+//     color: "white",
+// };                                           // Error
+//                                              // Dictinaries are not itterable
+// for (let x of dictionary) {
+//     console.log(x);
+// }
+// ===========================================================================
+// let set = new Set(["a", "b", "c"]);
+
+// let set = new Set();
+// set.add("a");
+// set.add("b");
+// set.add("c");
+// console.log(set);
+
+// letters = new Set();
+// const a = "d";
+// const b = "e";
+// const c = "f";
+// letters.add(a);
+// letters.add(b);
+// letters.add(c);
+// console.log(letters);
+
+// const cars = new Set(["audi", "bmw", "mercedes"]);
+// var text = "";
+// cars.forEach(function (value) {
+//     text += value;
+// });
+// console.log(text);
+
+// Set methods : new Set() - creates new set
+//               add()     - add items to set
+//               delete()  - removes item from set
+//               has()     - returns boolean value if there is that value in set
+//               forEach() - invokes a callback for each element of list
+//               values()  - returns an itterator with all values from set
+//               size      - returns a number of how many elements we have in set
+
+// ============================================================================

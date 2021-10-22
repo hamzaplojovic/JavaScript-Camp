@@ -381,3 +381,20 @@
 // console.log(text);
 
 // =================================================================================
+//                           Errors
+
+// try {
+//     addallert("Hello");
+// } catch (error) {
+//     console.log("The error occured: ", error.message);
+// }
+
+// finally {
+//      program that is going to be executed regardless of try or catch
+//}
+
+// try {
+//     num.toPrecision(500); // A number cannot have 500 significant digits
+// } catch (err) {
+//     console.log(err.name); // prints the name of error
+// }

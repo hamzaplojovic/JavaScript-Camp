@@ -348,6 +348,7 @@
 //     text += value;
 // });
 // console.log(text);
+// console.log(cars.size);
 
 // Set methods : new Set() - creates new set
 //               add()     - add items to set
@@ -358,3 +359,25 @@
 //               size      - returns a number of how many elements we have in set
 
 // ============================================================================
+//                           Maps
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["pears", 200],
+// ]);
+
+// fruits.set("apples", 600);
+// console.log(fruits);
+// console.log(fruits.get("bananas"));
+// console.log(fruits.size);
+// fruits.delete("pears");
+// console.log(fruits);
+// fruits.has("bananas");
+// console.log(fruits.entries());
+// let text = "";
+// fruits.forEach(function (value, key) {
+//     text += key + " = " + value + "  ";
+// });
+// console.log(text);
+
+// =================================================================================

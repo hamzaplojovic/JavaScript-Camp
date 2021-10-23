@@ -398,4 +398,6 @@
 // } catch (err) {
 //     console.log(err.name); // prints the name of error
 // }
+
+// throw()  creates custom errors
 //  =============================================================================

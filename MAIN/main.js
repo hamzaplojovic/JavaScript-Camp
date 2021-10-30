@@ -429,11 +429,12 @@
 // var size = Object.size(student);
 // console.log(size);
 
-// const person = {
-//     fname: "Hamza",
-//     lname: "Plojovic",
-//     fullname: function () {
-//         return this.fname + " " + this.lname;
-//     },
-// };
-// console.log(person.fullname);
+const person = {
+    fname: "Hamza",
+    lname: "Plojovic",
+    fullname: function () {
+        return this.fname + " " + this.lname;
+    },
+};
+console.log(person.fullname);
+console.log(person.fullname());

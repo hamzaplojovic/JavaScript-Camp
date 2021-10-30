@@ -401,3 +401,30 @@
 
 // throw()  creates custom errors
 //  =============================================================================
+
+//   Objects Exercises : https://www.w3resource.com/javascript-exercises/javascript-object-exercises.php
+
+// const student = {
+//     name: "George",
+//     age: 12,
+//     class: "VII",
+//     rollno: 5,
+// };
+
+// 1) console.log(" " + student.name, "\n", student.age, "\n", student.class);
+
+// 2) delete student.rollno;
+// console.log(student);
+
+// 3) Object.size = function (obj) {
+//     var size = 0,
+//         key;
+//     for (key in obj) {
+//         if (obj.hasOwnProperty(key)) {
+//             size++;
+//         }
+//     }
+//     return size;
+// };
+// var size = Object.size(student);
+// console.log(size);

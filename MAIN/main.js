@@ -429,12 +429,39 @@
 // var size = Object.size(student);
 // console.log(size);
 
-const person = {
-    fname: "Hamza",
-    lname: "Plojovic",
-    fullname: function () {
-        return this.fname + " " + this.lname;
-    },
-};
-console.log(person.fullname);
-console.log(person.fullname());
+// const person = {
+//     fname: "Hamza",
+//     lname: "Plojovic",
+//     fullname: function () {
+//         return this.fname + " " + this.lname;
+//     },
+// };
+// console.log(person.fullname);
+// console.log(person.fullname());
+
+// x = new String("hamza");
+// console.log(x);
+// y = new Number(8);
+// console.log(y);
+
+// MAPS;
+
+// const array = [45, 64, 90];
+// let map = array.map(myFunc);
+// function myFunc(value, index, array) {
+//     return value * 2;
+// }
+// console.log(map);
+
+var limit = window.prompt("Enter the limit for counting ");
+for (let index = 0; index < parseInt(limit); index++) {
+    if (index % 3 == 0 && index % 5 == 0) {
+        console.log("FizzBuzz");
+    } else if (index % 3 == 0) {
+        console.log("Fizz");
+    } else if (index % 5 == 0) {
+        console.log("Buzz");
+    } else {
+        console.log(index);
+    }
+}

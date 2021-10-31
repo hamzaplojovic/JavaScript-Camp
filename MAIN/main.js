@@ -447,21 +447,17 @@
 // MAPS;
 
 // const array = [45, 64, 90];
-// let map = array.map(myFunc);
-// function myFunc(value, index, array) {
+// let map = array.map(myFunc);                     // Map creates a new array from
+// function myFunc(value, index, array) {           // old array performing a function
 //     return value * 2;
 // }
 // console.log(map);
 
-var limit = window.prompt("Enter the limit for counting ");
-for (let index = 0; index < parseInt(limit); index++) {
-    if (index % 3 == 0 && index % 5 == 0) {
-        console.log("FizzBuzz");
-    } else if (index % 3 == 0) {
-        console.log("Fizz");
-    } else if (index % 5 == 0) {
-        console.log("Buzz");
-    } else {
-        console.log(index);
-    }
+const array = [45, 9, 6, 10, 19, 28];
+const over18 = array.filter(myFunc);
+
+function myFunc(value, index, array) {
+    return value > 18;
 }
+
+console.log(over18);

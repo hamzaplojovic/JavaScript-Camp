@@ -521,3 +521,6 @@
 // }
 // console.log(first);
 // //this searches for the first element that passes the test and displays his index
+//==================================================================================
+// console.log(Array.from("Hamza")); // display array from this string
+//==================================================================================

@@ -524,3 +524,11 @@
 //==================================================================================
 // console.log(Array.from("Hamza")); // display array from this string
 //==================================================================================
+
+//               Errors
+// try {
+//     addallert("Welcome!");
+// } catch (err) {
+//     console.log(err.message);
+// } finally {
+// }

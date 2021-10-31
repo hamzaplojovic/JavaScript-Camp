@@ -504,3 +504,20 @@
 // fruits.includes("Mango"); // true or false
 //    search(item)
 // ==============================================================================
+// const array = [1, 2, 5, 10, 15, 25];
+// let first = array.find(myFunc);
+
+// function myFunc(value, index, array) {
+//     return value > 18;
+// }
+
+// console.log(first); // find searches for the FIRST, FIRST element that passes the test
+// ==============================================================================
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.findIndex(myFunction);
+
+// function myFunction(value, index, array) {
+//     return value > 18;
+// }
+// console.log(first);
+// //this searches for the first element that passes the test and displays his index

@@ -480,3 +480,13 @@
 // }
 
 // console.log(sum);
+// ==============================================================================
+
+// const array = [45, 191, 121, 19, 23];
+// allover18 = array.every(myFunc);
+
+// function myFunc(value, index, array) {
+//     return value > 18;
+// }
+
+// console.log(allover18); // every return true or false and nothing else

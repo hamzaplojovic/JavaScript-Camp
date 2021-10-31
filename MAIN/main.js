@@ -452,12 +452,31 @@
 //     return value * 2;
 // }
 // console.log(map);
+// ==============================================================================
+// const array = [45, 9, 6, 10, 19, 28];
+// const over18 = array.filter(myFunc);
 
-const array = [45, 9, 6, 10, 19, 28];
-const over18 = array.filter(myFunc);
+// function myFunc(value, index, array) {   // value itself, index from value, array that we are working on
+//     return value > 18;
+// }
 
-function myFunc(value, index, array) {
-    return value > 18;
-}
+// console.log(over18);
+// ==============================================================================
+// const array = [1, 2, 3, 4, 5, 6];
+// const array = ["Hamza ", "Plojovic"];
+// let sum = array.reduce(myFunc); //reduce runs a function to produce(reduce) array to single value
 
-console.log(over18);
+// function myFunc(total, value, index, array) { // we are adding total argument(initial value / previously returned value)
+//     return total + value;
+// }
+
+// console.log(sum);
+// ==============================================================================
+// const array = [1, 2, 3, 4, 5, 6];
+// let sum = array.reduce(myFunc, 100); // in this case, we are adding inital value, that is going to be added on top of our array sum
+
+// function myFunc(total, value, index, array) {
+//     return total + value;
+// }
+
+// console.log(sum);

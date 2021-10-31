@@ -490,3 +490,12 @@
 // }
 
 // console.log(allover18); // every return true or false and nothing else
+// ==============================================================================
+const array = [45, 191, 121, 19, 23];
+someover18 = array.some(myFunc);
+
+function myFunc(value, index, array) {
+    return value > 18;
+}
+
+console.log(someover18); // some returns true if some of values pass the test or false and nothing else

@@ -500,6 +500,7 @@
 
 // console.log(someover18); // some returns true if some of values pass the test or false and nothing else
 // ==============================================================================
-const fruits = ["Kiwi", "Banana", "Apple", "Cherry"];
-fruits.includes("Mango"); // true or false
+// const fruits = ["Kiwi", "Banana", "Apple", "Cherry"];
+// fruits.includes("Mango"); // true or false
 //    search(item)
+// ==============================================================================

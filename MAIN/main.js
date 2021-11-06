@@ -535,3 +535,23 @@
 
 // n = 42;
 // console.log(typeof String(n));
+
+// string = "Hamza je Dobar";
+// string.split(" ");
+// for (let index of string) {
+//     console.log(index[0]);
+// }
+
+// class Car {
+//     constructor(name, year) {
+//         this.name = name;
+//         this.year = year;
+//     }
+// }
+// let myCar1 = new Car("Ford", 2014);
+// console.log(myCar1.name);
+// console.log(myCar1.year);
+// let myCar2 = new Car("Bugatti", 2018);
+// console.log(" ");
+// console.log(myCar2.name);
+// console.log(myCar2.year);

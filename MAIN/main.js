@@ -640,3 +640,19 @@
 
 // let myCar = new Model("Ford", "Mustang");
 // console.log(myCar.show());
+
+class Car {
+    constructor(brand) {
+        this._carname = brand;
+    }
+    get carname() {
+        return this._carname;
+    }
+    set carname(x) {
+        this._carname = x;
+    }
+}
+
+let mycar = new Car("Ford"); // we are running get function
+mycar.carname = "Volvo"; // we are running set function
+console.log(mycar.carname);

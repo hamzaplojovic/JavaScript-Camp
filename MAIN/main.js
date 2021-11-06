@@ -556,15 +556,54 @@
 // console.log(myCar2.name);
 // console.log(myCar2.year);
 
-class User {
-    constructor(name) {
-        this.name = name;
-    }
-    sayHi() {
-        console.log("Hi", this.name);
-    }
+// class User {
+//     constructor(name) {
+//         this.name = name;
+//     }
+//     sayHi() {
+//         console.log("Hi", this.name);
+//     }
+// }
+
+// let user = new User("Hamza");
+// user.sayHi();
+// console.log(typeof User);
+
+// let User = class {
+//     sayHi(name) {
+//         console.log("Hi,", name);
+//     }
+// };
+// let greet = new User().sayHi("Hamza");
+// console.log(greet);
+
+function createCar(brand) {
+    var car = {
+        brand: brand,
+        speed: 0,
+
+        accelerate: function (amount) {
+            this.speed += amount;
+        },
+
+        brake: function (amount) {
+            this.speed -= amount;
+        },
+
+        status: function () {
+            return this.brand + " running at " + this.speed + " km/h";
+        },
+    };
+
+    return car;
 }
 
-let user = new User("Hamza");
-user.sayHi();
-console.log(typeof User);
+var car = createCar("Ford");
+
+console.log(car.status());
+car.accelerate(50);
+console.log(car.status());
+car.accelerate(100);
+console.log(car.status());
+car.brake(25);
+console.log(car.status());

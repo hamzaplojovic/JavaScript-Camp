@@ -555,3 +555,16 @@
 // console.log(" ");
 // console.log(myCar2.name);
 // console.log(myCar2.year);
+
+class User {
+    constructor(name) {
+        this.name = name;
+    }
+    sayHi() {
+        console.log("Hi", this.name);
+    }
+}
+
+let user = new User("Hamza");
+user.sayHi();
+console.log(typeof User);

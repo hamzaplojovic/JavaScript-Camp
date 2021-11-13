@@ -723,18 +723,22 @@
 // registerUser.apply(person, ["hungary", "en"]);
 
 //======================================================================================
-function Todo(name, completed) {
-    this.name = name;
-    this.completed = completed;
-    this.getTodoName = function () {
-        return this.name;
-    };
-}
+// function Todo(name, completed) {
+//     this.name = name;
+//     this.completed = completed;
+//     this.getTodoName = function () {
+//         return this.name;
+//     };
+// }
 
-const todo1 = new Todo("Buy milk", false);
-const todo2 = new Todo("Do homework", true);
-const todo3 = new Todo("You don't know JS", "never");
+// const todo1 = new Todo("Buy milk", false);
+// const todo2 = new Todo("Do homework", true);
+// const todo3 = new Todo("You don't know JS", "never");
 
-console.log(todo1);
-console.log(todo2);
-console.log(todo3);
+// console.log(todo1);
+// console.log(todo2);
+// console.log(todo3);
+
+// todo1.getTodoName();
+// todo2.getTodoName();
+// todo3.getTodoName();

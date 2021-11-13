@@ -701,3 +701,40 @@
 //     monthName = "unknown";
 //     console.error(e.message, e.name); // pass exception object to err handler
 // }
+
+// const person = {
+//     name: "Hamza",
+//     lname: "Plojovic",
+//     getName() {
+//         console.log(this.name + " " + this.lname);
+//     },
+// };
+// function registerUser(country, language) {
+//     this.getName();
+//     console.log(country);
+//     console.log(language);
+// }
+
+// const register = registerUser.bind(person);
+// register();
+
+// registerUser.call(person, "Serbia", "Serbian");
+
+// registerUser.apply(person, ["hungary", "en"]);
+
+//======================================================================================
+function Todo(name, completed) {
+    this.name = name;
+    this.completed = completed;
+    this.getTodoName = function () {
+        return this.name;
+    };
+}
+
+const todo1 = new Todo("Buy milk", false);
+const todo2 = new Todo("Do homework", true);
+const todo3 = new Todo("You don't know JS", "never");
+
+console.log(todo1);
+console.log(todo2);
+console.log(todo3);

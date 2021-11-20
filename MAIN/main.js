@@ -743,31 +743,40 @@
 // todo2.getTodoName();
 // todo3.getTodoName();
 
-let text =
-    '{ "employees" : [' +
-    '{ "firstName":"John" , "lastName":"Doe" },' +
-    '{ "firstName":"Anna" , "lastName":"Smith" },' +
-    '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+// let text =
+//     '{ "employees" : [' +
+//     '{ "firstName":"John" , "lastName":"Doe" },' +
+//     '{ "firstName":"Anna" , "lastName":"Smith" },' +
+//     '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
 
-//=====================================================================================
-let obj = JSON.parse(text);
-console.log(obj.employees[0]);
-console.log(obj.employees[1]);
-console.log(obj.employees[2]);
-console.log(
-    "====================================================================================="
-);
-//=====================================================================================
-console.log(obj.employees[0].firstName);
-console.log(obj.employees[1].firstName);
-console.log(obj.employees[2].firstName);
-console.log(
-    "====================================================================================="
-);
-//=====================================================================================
-console.log(obj.employees[0].lastName);
-console.log(obj.employees[1].lastName);
-console.log(obj.employees[2].lastName);
-console.log(
-    "====================================================================================="
-);
+// //=====================================================================================
+// let obj = JSON.parse(text);
+// console.log(obj.employees[0]);
+// console.log(obj.employees[1]);
+// console.log(obj.employees[2]);
+// console.log(
+//     "====================================================================================="
+// );
+// //=====================================================================================
+// console.log(obj.employees[0].firstName);
+// console.log(obj.employees[1].firstName);
+// console.log(obj.employees[2].firstName);
+// console.log(
+//     "====================================================================================="
+// );
+// //=====================================================================================
+// console.log(obj.employees[0].lastName);
+// console.log(obj.employees[1].lastName);
+// console.log(obj.employees[2].lastName);
+// console.log(
+//     "====================================================================================="
+// );
+
+function init() {
+    var name = "John";
+    function displayName() {
+        console.log(name);
+    }
+    displayName();
+}
+init();

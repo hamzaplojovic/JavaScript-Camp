@@ -772,11 +772,20 @@
 //     "====================================================================================="
 // );
 
-function init() {
-    var name = "John";
-    function displayName() {
-        console.log(name);
-    }
-    displayName();
-}
-init();
+// function init() {
+//     var name = "John";
+//     function displayName() {
+//         console.log(name);
+//     }
+//     displayName();
+// }
+// init();
+
+// IIFE
+
+(function () {
+    // some initiation code
+    let firstVariable;
+    let secondVariable;
+})();
+// firstVariable and secondVariable will be discarded after the function is executed.

@@ -783,9 +783,32 @@
 
 // IIFE
 
-(function () {
-    // some initiation code
-    let firstVariable;
-    let secondVariable;
-})();
-// firstVariable and secondVariable will be discarded after the function is executed.
+// (function () {
+//     // some initiation code
+//     let firstVariable;
+//     let secondVariable;
+// })();
+// // firstVariable and secondVariable will be discarded after the function is executed.
+
+// Deconstructing
+
+// [a, b, ...rest] = [1, 2, 2, 3, 4, 5, 6, 7, 8];
+// console.log(a + "\n" + b + "\n" + rest);
+
+// lista = ["daris", "nesto", "hamza", "nesto2"];
+
+// [ime, ...lista2] = lista;
+
+// console.log(lista2[1]);
+
+// Callback
+// function greeting(name) {
+//     alert("Hello " + name);
+// }
+
+// function processUserInput(callback) {
+//     var name = prompt("Please enter your name.");
+//     callback(name);
+// }
+
+// processUserInput(greeting);

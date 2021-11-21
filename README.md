@@ -1,7 +1,5 @@
 # JavaScript
 
-Calculator with HTML: https://hamzaplojovic.github.io/JavaScript/CalculatorHTML/
-
 Course: https://hamzaplojovic.github.io/JavaScript/MAIN/
 
 Shopping List: https://hamzaplojovic.github.io/JavaScript/SHOPPING/

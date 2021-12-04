@@ -853,5 +853,4 @@
 //         myDisplayer(error);
 //     }
 // );
-
 // Promise : pending, fullfiled, rejected

@@ -854,3 +854,6 @@
 //     }
 // );
 // Promise : pending, fullfiled, rejected
+fetch("https://fakestoreapi.com/products/23")
+    .then((response) => response.json())
+    .then((data) => console.log(data.category));
